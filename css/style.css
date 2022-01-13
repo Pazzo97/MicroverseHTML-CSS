@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(121, 107, 230, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(../rizki-dwi-yd1wWWilf4o-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 150vh;
+}
+
+.head {
+    padding-left: 375px;
+    padding-top: 100px;
+    line-height: 30px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* .header {
+    padding-bottom: 10px;
+} */
+
+.form {
+    height: 380px;
+    background: linear-gradient(to top, rgba(66, 50, 209, 0.8)50%, rgba(0, 0, 0, 0.8)50%);
+    position: absolute;
+    top: 200px;
+    left: 350px;
+    border-radius: 10px;
+    /* padding: -50px */
+    /* float: center;
+    background: linear-gradient(to top, rgba(19, 10, 92, 0.5)50%, rgba(0, 0, 0, 0.5)50%);
+    height: fit-content;
+    width: fit-content;
+    float: center; */
+}
+
+.form label {
+    width: 240px;
+    height: 35px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:hover {
+    background: linear-gradient(to top, rgba(66, 50, 209, 0.8)50%, rgba(0, 0, 0, 0.8)50%);
+}
+
+.btn {
+    text-align: center;
+    text-transform: uppercase;
+    background: #087e04;
+}
